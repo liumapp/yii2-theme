@@ -1,0 +1,13 @@
+{
+    "name": "liumapp/yii2-theme",
+    "description": "yii2 themes base on bootstrap3",
+    "keywords": ["yii2", "theme"],
+    "homepage": "http://www.liumapp.com/",
+    "type": "project",
+    "license": "BSD-3-Clause",
+    "minimum-stability": "stable",
+    "require": {
+	
+    }
+}
+
