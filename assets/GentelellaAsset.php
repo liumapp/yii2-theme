@@ -14,7 +14,7 @@ use yii\web\AssetBundle;
 /**
  * Main backend application asset bundle.
  */
-class Gentelella extends AssetBundle
+class GentelellaAsset extends AssetBundle
 {
     public $basePath = __DIR__ . '/../bower_components/build';
     public $baseUrl = '@web';
