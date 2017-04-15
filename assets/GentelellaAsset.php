@@ -15,16 +15,16 @@ use yii\web\AssetBundle;
 class GentelellaAsset extends AssetBundle
 {
 
-    public $basePath = '@vendor/liumapp/theme/bower_components/build';
+    public $basePath = '@bower/gentelellaTheme/dist';
 
     public $baseUrl = '@web';
 
     public $css = [
-        'css/custom.css',
+        'css/custom.min.css',
     ];
 
     public $js = [
-        'js/custom.js',
+        'js/custom.min.js',
     ];
 
     public $depends = [
