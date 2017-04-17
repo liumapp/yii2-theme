@@ -15,9 +15,7 @@ use yii\web\AssetBundle;
 class GentelellaAsset extends AssetBundle
 {
 
-    public $basePath = '@bower/gentelellaTheme/dist';
-
-    public $baseUrl = '@web';
+    public $sourcePath = '@bower/gentelellaTheme/dist';
 
     public $css = [
         'css/custom.min.css',
@@ -30,6 +28,7 @@ class GentelellaAsset extends AssetBundle
     public $depends = [
         'yii\web\YiiAsset',
         'yii\bootstrap\BootstrapAsset',
+        'yii\bootstrap\BootstrapPluginAsset',
     ];
 
 }
