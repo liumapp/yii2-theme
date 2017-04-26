@@ -4,17 +4,15 @@
  * User: liumapp
  * Email: liumapp.com@gmail.com
  * homePage: http://www.liumapp.com
- * Date: 4/14/17
- * Time: 4:33 PM
+ * Date: 4/26/17
+ * Time: 5:55 PM
  */
-
 namespace liumapp\theme\assets;
 
 use yii\web\AssetBundle;
 
-class GentelellaAsset extends AssetBundle
+class NprogressAsset extends AssetBundle
 {
-
     public $sourcePath = '@bower/gentelellaTheme/dist';
 
     public $css = [
@@ -34,5 +32,4 @@ class GentelellaAsset extends AssetBundle
         'yii\bootstrap\BootstrapPluginAsset',
         'liumapp\theme\assets\FontawesomeAsset',
     ];
-
 }
