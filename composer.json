@@ -8,7 +8,7 @@
     "require": {
         "yiisoft/yii2": "2.0.10",
         "yiisoft/yii2-bootstrap": "2.0.6",
-        "bower-asset/gentelellaTheme":"v1.1.0"
+        "bower-asset/gentelellaTheme":"v1.0.0"
     },
     "autoload": {
         "psr-4": {
